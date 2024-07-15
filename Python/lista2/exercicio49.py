@@ -1,0 +1,5 @@
+ql = int(input("Quantidades de lata: "))
+qg = int(input("Quantidades de garrafas 600ml: "))
+qg2 = int( input("Quantidades de garrafas 2L: "))
+t = (ql * 0.35) + (qg * 0.6) + (qg2 * 2)
+print(f"O total de refrigerantes comprados é {t}")

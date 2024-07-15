@@ -1,0 +1,5 @@
+q = float(input("Quantidade de Sanduiches: "))
+pq = (q * 0.1)
+pp = (q * 0.5)
+pc = (q * 0.1)
+print(f"Quantidade de queijo é {pq}kg\nQuantidade de presunto é {pp}kg\nQuntidade de carne é {pc}kg")

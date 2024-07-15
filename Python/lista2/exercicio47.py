@@ -1,0 +1,5 @@
+hn = float(input("Horas normais trabalhadas: "))
+he = float(input("Horas extras: "))
+sb =( hn * 32.50) + (he * 44.50)
+sl = sb - (sb * 0.11)
+print(f"Salario bruto é R${sb}\nSalario líquido é R${sl}")
